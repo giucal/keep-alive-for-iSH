@@ -1,0 +1,7 @@
+OpenRC service script to keep iSH processes alive when the screen is off or the app
+is in the background.
+
+The makefile should be able to provision iSH with openrc if not installed, and
+set up a new service for keep-alive:
+
+	make install
